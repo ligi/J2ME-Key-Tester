@@ -4,7 +4,7 @@
         <!-- jar filename -->
 	<property name="project_name" value="KeyTester"/> 
 
-	<property name="project_version" value="0.1"/>           
+	<property name="project_version" value="0.2"/>           
 
 
 	<property name="build_dir" location="${basedir}/build/"/>
