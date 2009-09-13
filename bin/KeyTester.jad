@@ -1,0 +1,8 @@
+MIDlet-Jar-URL: KeyTester.jar
+MIDlet-Jar-Size: 2383
+MIDlet-Name: KeyTester
+MIDlet-Vendor: LiGi
+MIDlet-Version: 0.1
+MIDlet-1: KeyTester, i.png, KeyTester
+MIDletX-No-Command: true
+MIDlet-Icon: i.png
