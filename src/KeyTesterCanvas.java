@@ -141,14 +141,16 @@ public class KeyTesterCanvas
 
     public void paint(Graphics g)
     {
+	Font my_font=Font.getFont(Font.FACE_SYSTEM, Font.STYLE_PLAIN, Font.SIZE_SMALL);
+	g.setFont(my_font);
 
 	g.setColor(0);
 	g.fillRect(0,0,this.getWidth(),this.getHeight());
 	g.setColor(0x00BB00);
 	g.drawString("Action Name: " + key_action_name ,0,0,Graphics.LEFT  | Graphics.TOP);
-	g.drawString("KeyAction: " + game_action ,0,10,Graphics.LEFT  | Graphics.TOP);
-	g.drawString("KeyCode: " + key_code ,0,20,Graphics.LEFT  | Graphics.TOP);
-	g.drawString("Press any key 3 times to exit" ,0,30,Graphics.LEFT  | Graphics.TOP);
+	g.drawString("KeyAction: " + game_action ,0,my_font.getHeight()*2,Graphics.LEFT  | Graphics.TOP);
+	g.drawString("KeyCode: " + key_code ,0,my_font.getHeight()*4,Graphics.LEFT  | Graphics.TOP);
+	g.drawString("Press any key 3 times to exit" ,0,my_font.getHeight()*6,Graphics.LEFT  | Graphics.TOP);
 
     }
 }
