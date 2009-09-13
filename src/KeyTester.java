@@ -38,7 +38,7 @@ public class KeyTester
 
     public void run()
     {
-	while (canvas.key_repeat<3)
+	while (canvas.key_repeat<2)
 	    {
 		try
 		    {
